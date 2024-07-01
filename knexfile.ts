@@ -1,5 +1,5 @@
 import type { Knex } from "knex";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 // Update with your config settings.
 
 dotenv.config();

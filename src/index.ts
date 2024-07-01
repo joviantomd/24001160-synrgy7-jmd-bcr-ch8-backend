@@ -38,12 +38,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/cars", carsRouter);
 app.use("/user", userRouter);
 
-// route testing
-app.get("/hello-world", (req, res) => {
-  res.status(200).json({
-    message: "Hello World",
-  });
-});
 
 const server = http.createServer(app);
 server.listen(port, () => {
