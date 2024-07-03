@@ -26,11 +26,7 @@ const knexInstance = knex({
 
 Model.knex(knexInstance);
 
-app.use(
-  cors({
-    origin: "https://synrgy7-jmd-bcr-ch8-frontend.vercel.app/",
-  })
-);
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
