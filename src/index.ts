@@ -28,7 +28,7 @@ Model.knex(knexInstance);
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://synrgy7-jmd-bcr-ch8-frontend.vercel.app/",
   })
 );
 
